@@ -1,14 +1,25 @@
 
-  let button = document.querySelector("button");
-  let dropdown = document.getElementById("colorSelect");
+function removecolor(){
+	let one = document.getElementById("colorSelect")
+	one.remove(one.selectedIndex)
+}
 
-  button.addEventListener("click", function () {
-    for (let i = 0; i < dropdown.options.length; i++) {
-      if (dropdown.options[i].value === "green") {
-        dropdown.remove(i);
-        break;
-      }
-    }
+
+
+
+
+
+
+//   let button = document.querySelector("button");
+//   let dropdown = document.getElementById("colorSelect");
+
+//   button.addEventListener("click", function () {
+//     for (let i = 0; i < dropdown.options.length; i++) {
+//       if (dropdown.options[i].value === "green") {
+//         dropdown.remove(i);
+//         break;
+//       }
+//     }
   
 
 
@@ -16,11 +27,11 @@
 
 
 
-// function removeOption() {
-//   var dropdown = document.getElementById("myDropdown");
+// // function removeOption() {
+// //   var dropdown = document.getElementById("myDropdown");
 
-//   for (var i = 0; i < dropdown.options.length; i++) {
-//     if (dropdown.options[i].value === "two") {
+// //   for (var i = 0; i < dropdown.options.length; i++) {
+// //     if (dropdown.options[i].value === "two") {
 //       dropdown.remove(i);
 //       break;
 //     }
